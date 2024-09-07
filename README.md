@@ -1,30 +1,50 @@
-# frontend
+# React + TypeScript + Vite
 
-Requirement Analysis
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-User 
+Currently, two official plugins are available:
 
--Survey taken initially after login to capture information for any allergies
-- Dashboard
-- User i/p : (i) Selected meal, (ii) Selected Snack, (iii) Selected Drink
-- Reward:  with CO2 emission result weekly basis ( Chart )
-- Display banners with awareness for reducing CO2 emission ( for meals )
-- Display banners with regard to  sustainability ( for snack and drinks )
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Org./Food Caterer
+## Expanding the ESLint configuration
 
-Food Caterers : Aramark, Consortium, Feli Gastro
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Gets the count of daily orders been placed/served w.r.t meals
-- Calculated CO2 emission value in categories ( vegetables, meat, etc. )
-- Reports generated monthly basis with detail analysis of CO2 emission results
-- Analysis report for future predictions and measures that can be taken to lower the CO2 emission
-- Tracking of food waste, donated food, carbon emission generated.
-- Option to view the carbon emission chart for every ingredient
+- Configure the top-level `parserOptions` property like this:
 
-Goal
+```js
+export default tseslint.config({
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      tsconfigRootDir: import.meta.dirname,
+    },
+  },
+})
+```
 
-- Make user aware of the CO2 emission present in their daily lunch/food
-- Engaging for user to be mindful of their food consumption
-- Generating reports for Org./Food Caterer to make informed decision for lowering the CO2 emission
-- Inclusive, responsive design focused
+- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
+- Optionally add `...tseslint.configs.stylisticTypeChecked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+
+```js
+// eslint.config.js
+import react from 'eslint-plugin-react'
+
+export default tseslint.config({
+  // Set the react version
+  settings: { react: { version: '18.3' } },
+  plugins: {
+    // Add the react plugin
+    react,
+  },
+  rules: {
+    // other rules...
+    // Enable its recommended rules
+    ...react.configs.recommended.rules,
+    ...react.configs['jsx-runtime'].rules,
+  },
+})
+```
