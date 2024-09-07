@@ -28,3 +28,60 @@ Goal
 - Engaging for user to be mindful of their food consumption
 - Generating reports for Org./Food Caterer to make informed decision for lowering the CO2 emission
 - Inclusive, responsive design focused
+
+Example of CO2 emission breakdown:
+
+**Vegan Chickpea Stir-fry**
+
+### **Ingredients (for 2 servings):**
+
+1. 200g Chickpeas (canned or cooked from dry) – 100g per serving
+2. 100g Bell Peppers (fresh) – 50g per serving
+3. 100g Broccoli (fresh) – 50g per serving
+4. 2 tbsp Olive Oil (30ml total)
+5. 50g Onions (fresh) – 25g per serving
+
+### **CO₂ Emissions (per ingredient, as % of total meal):**
+
+1. **Chickpeas (200g)**
+    - CO₂ emission: ~0.9 kg CO₂e per kg
+    - Total: **0.18 kg CO₂e**
+    - **40% of total emissions**
+2. **Bell Peppers (100g)**
+    - CO₂ emission: ~3.0 kg CO₂e per kg
+    - Total: **0.30 kg CO₂e**
+    - **33% of total emissions**
+3. **Broccoli (100g)**
+    - CO₂ emission: ~0.5 kg CO₂e per kg
+    - Total: **0.05 kg CO₂e**
+    - **5% of total emissions**
+4. **Olive Oil (30ml)**
+    - CO₂ emission: ~6.0 kg CO₂e per liter
+    - Total: **0.18 kg CO₂e**
+    - **20% of total emissions**
+5. **Onion (50g)**
+    - CO₂ emission: ~0.5 kg CO₂e per kg
+    - Total: **0.025 kg CO₂e**
+    - **2% of total emissions**
+
+
+### **Total Emissions for the Meal**:
+
+**0.735 kg CO₂e** per serving - Useful info for User 
+
+### **CO₂ Emission Breakdown:**
+
+- **Chickpeas:** 40%
+- **Bell Peppers:** 33%
+- **Olive Oil:** 20%
+- **Broccoli:** 5%
+- **Onion:** 2%
+
+In this dish, the largest contributors to emissions are the **chickpeas** and **bell peppers**, while ingredients like **broccoli** and **onion** contribute much less. - Useful info for Org./Food Caterer
+
+Useful Information
+
+- Wasting food increases its carbon footprint by as much as **20-30%** due to the extra methane produced in landfills.
+- **CO₂ Emissions from Waste:**
+
+In addition to the **0.735 kg CO₂e** per serving already produced in making the meal, an extra **0.15    to 0.35 kg CO₂e** per kg of food is typically added from the methane produced during decomposition in landfills.
