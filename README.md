@@ -12,6 +12,8 @@ User
 
 Org./Food Caterer
 
+Food Caterers : Aramark, Consortium, Feli Gastro
+
 - Gets the count of daily orders been placed/served w.r.t meals
 - Calculated CO2 emission value in categories ( vegetables, meat, etc. )
 - Reports generated monthly basis with detail analysis of CO2 emission results
