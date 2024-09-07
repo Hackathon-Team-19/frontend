@@ -1,0 +1,76 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Avocado & Chickpea Salad",
+      "category": "Vegan",
+      "ingredients": [
+        {"id": 1, "quantity": 120},
+        {"id": 2, "quantity": 75},
+        {"id": 3, "quantity": 75},
+        {"id": 4, "quantity": 75},
+        {"id": 5, "quantity": 13.5}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pasta with Tomato and Basil",
+      "category": "Vegan",
+      "ingredients": [
+        {"id": 6, "quantity": 100},
+        {"id": 7, "quantity": 100},
+        {"id": 8, "quantity": 50},
+        {"id": 5, "quantity": 13.5},
+        {"id": 9, "quantity": 5}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Mushroom & Mozzarella Quesadilla",
+      "category": "Vegetarian",
+      "ingredients": [
+        {"id": 14, "quantity": 100},
+        {"id": 15, "quantity": 50},
+        {"id": 16, "quantity": 100},
+        {"id": 5, "quantity": 13.5},
+        {"id": 8, "quantity": 50}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Spinach & Feta Stuffed Peppers",
+      "category": "Vegetarian",
+      "ingredients": [
+        {"id": 10, "quantity": 150},
+        {"id": 11, "quantity": 50},
+        {"id": 12, "quantity": 50},
+        {"id": 5, "quantity": 13.5},
+        {"id": 13, "quantity": 5}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Grilled Chicken with Quinoa and Veggies",
+      "category": "Non-Vegetarian",
+      "ingredients": [
+        {"id": 17, "quantity": 150},
+        {"id": 18, "quantity": 75},
+        {"id": 10, "quantity": 75},
+        {"id": 5, "quantity": 13.5},
+        {"id": 19, "quantity": 120}
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Honey Mustard Glazed Salmon with Green Beans",
+      "category": "Non-Vegetarian",
+      "ingredients": [
+        {"id": 20, "quantity": 150},
+        {"id": 21, "quantity": 100},
+        {"id": 22, "quantity": 30},
+        {"id": 23, "quantity": 15},
+        {"id": 5, "quantity": 13.5}
+      ]
+    }
+  ]
+}

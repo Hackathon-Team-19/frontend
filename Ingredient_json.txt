@@ -1,0 +1,119 @@
+{
+  "ingredients": [
+    {
+      "id": 1,
+      "Ingredient": "Chickpea",
+      "CO2_emission_per_kg": 0.9
+    },
+    {
+      "id": 2,
+      "Ingredient": "Avocado",
+      "CO2_emission_per_kg": 2.5
+    },
+    {
+      "id": 3,
+      "Ingredient": "Cucumber",
+      "CO2_emission_per_kg": 0.1
+    },
+    {
+      "id": 4,
+      "Ingredient": "Cherry Tomatoes",
+      "CO2_emission_per_kg": 2.1
+    },
+    {
+      "id": 5,
+      "Ingredient": "Olive Oil",
+      "CO2_emission_per_kg": 6
+    },
+    {
+      "id": 6,
+      "Ingredient": "Pasta",
+      "CO2_emission_per_kg": 1.8
+    },
+    {
+      "id": 7,
+      "Ingredient": "Tomatoes",
+      "CO2_emission_per_kg": 2.1
+    },
+    {
+      "id": 8,
+      "Ingredient": "Onion",
+      "CO2_emission_per_kg": 0.5
+    },
+    {
+      "id": 9,
+      "Ingredient": "Basil Leaves",
+      "CO2_emission_per_kg": 0.2
+    },
+    {
+      "id": 10,
+      "Ingredient": "Bell Peppers",
+      "CO2_emission_per_kg": 3
+    },
+    {
+      "id": 11,
+      "Ingredient": "Spinach",
+      "CO2_emission_per_kg": 2
+    },
+    {
+      "id": 12,
+      "Ingredient": "Feta Cheese",
+      "CO2_emission_per_kg": 8.5
+    },
+    {
+      "id": 13,
+      "Ingredient": "Garlic",
+      "CO2_emission_per_kg": 1.5
+    },
+    {
+      "id": 14,
+      "Ingredient": "Mushrooms",
+      "CO2_emission_per_kg": 1.1
+    },
+    {
+      "id": 15,
+      "Ingredient": "Mozzarella Cheese",
+      "CO2_emission_per_kg": 9.8
+    },
+    {
+      "id": 16,
+      "Ingredient": "Flour Tortillas",
+      "CO2_emission_per_kg": 1.9
+    },
+    {
+      "id": 17,
+      "Ingredient": "Chicken Breasts",
+      "CO2_emission_per_kg": 6.9
+    },
+    {
+      "id": 18,
+      "Ingredient": "Quinoa",
+      "CO2_emission_per_kg": 1.5
+    },
+    {
+      "id": 19,
+      "Ingredient": "Lemon",
+      "CO2_emission_per_kg": 0.3
+    },
+    {
+      "id": 20,
+      "Ingredient": "Salmon Fillets",
+      "CO2_emission_per_kg": 7
+    },
+    {
+      "id": 21,
+      "Ingredient": "Green Beans",
+      "CO2_emission_per_kg": 0.5
+    },
+    {
+      "id": 22,
+      "Ingredient": "Honey",
+      "CO2_emission_per_kg": 2
+    },
+    {
+      "id": 23,
+      "Ingredient": "Dijon Mustard",
+      "CO2_emission_per_kg": 1
+    }
+  ]
+}
