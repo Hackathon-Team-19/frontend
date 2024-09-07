@@ -4,6 +4,7 @@ Requirement Analysis
 
 User 
 
+-Survey taken initially after login to capture information for any allergies
 - Dashboard
 - User i/p : (i) Selected meal, (ii) Selected Snack, (iii) Selected Drink
 - Reward:  with CO2 emission result weekly basis ( Chart )
