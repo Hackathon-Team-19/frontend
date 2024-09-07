@@ -24,3 +24,4 @@ Goal
 - Make user aware of the CO2 emission present in their daily lunch/food
 - Engaging for user to be mindful of their food consumption
 - Generating reports for Org./Food Caterer to make informed decision for lowering the CO2 emission
+- Inclusive, responsive design focused
