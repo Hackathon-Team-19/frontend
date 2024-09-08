@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { PieChart } from '@mui/x-charts/PieChart';
 import { Card, CardActionArea, CardContent, Typography, Checkbox, Button, Modal, Box } from '@mui/material';
-
+import Snacks from './assets/Snacks.png';
+import Drinks from './assets/Drinks.png';
 import './App.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
   const [selectedMenu, setSelectedMenu] = useState<{ id: number, name: string, category: string, ingredients: { id: number, quantity: number }[] }[]>([])
   const [selectedItemPlot, setSelectedItemPlot] = useState([])
   const [selectedCard, setSelectedCard] = useState<number | null>(null);
+  const [chipsAndSnacks, setChipsAndSnacks] = useState(false)
   const [carEmissionCalulation, setCarEmissionCalulation] = useState()
 
   const style = {
@@ -282,7 +284,6 @@ function App() {
     setSelectedMenu(mealTemp)
     const drivingEquivalent = calculateDrivingEquivalent(selectedItemPlot)
     const sum = drivingEquivalent.reduce((partialSum, a) => partialSum + Number(a), 0).toFixed(2);
-    console.log(sum, "sum");
     setCarEmissionCalulation({ totalCo2Emission: sumOfCo2, drivingEquivalent: sum })
   }
 
@@ -291,6 +292,9 @@ function App() {
       setFoodType(foodType);
       setSelectedItemPlot([])
       setSelectedCard(null)
+      // setChipsAndSnacks(false)
+    } else {
+      setChipsAndSnacks(true)
     }
   }
 
@@ -372,14 +376,14 @@ function App() {
           <div className='food-type-container'>
             <div className='card' onClick={() => foodTypeSelection("Chips")}>
               <h2>Chips and Drinks</h2>
-
             </div>
           </div>
-
+          {chipsAndSnacks && <div className='imageContainer'>
+            <img src={Snacks} alt='snacks' width={500} height={400} />
+            <img src={Drinks} alt='drinks' width={500} height={400} />
+          </div>}
         </>
-        <Typography variant="h1" component="div">
-          Placeholder
-        </Typography>
+
         <div className='completeButton'>
           <Button className='continueButton' variant="contained" onClick={handleOpen}>Complete</Button>
         </div>
